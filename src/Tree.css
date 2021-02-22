@@ -1,0 +1,62 @@
+@media screen and (min-width: 843px) {
+  .tree1 {
+    background: #81dafb;
+    float: left;
+    position: relative;
+
+    width: 65%;
+  }
+  .tree {
+    background: #81dafb;
+    float: left;
+    position: relative;
+
+    width: 65%;
+    margin-left: 10%;
+  }
+}
+
+@media screen and (max-width: 842px) {
+  .tree1 {
+    background: #81dafb;
+    width: 85%;
+  }
+  .tree {
+    background: #81dafb;
+    width: 85%;
+    margin-left: 10%;
+  }
+}
+
+.extra_info {
+  background: red;
+  border: 3px solid green;
+  width: 25%;
+  height: 900px;
+}
+
+#form-input-control-first-name {
+  padding-top: 0rem;
+  padding-right: 1rem;
+  padding-bottom: 0rem;
+  padding-left: 1rem;
+}
+
+#form-input-control-last-name {
+  padding-top: 0rem;
+  padding-right: 1rem;
+  padding-bottom: 0rem;
+  padding-left: 1rem;
+}
+
+form.ui.form {
+  width: 85%;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  list-style: none;
+}

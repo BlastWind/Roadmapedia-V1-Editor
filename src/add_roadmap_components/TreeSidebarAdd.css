@@ -1,0 +1,94 @@
+#TreeSidebarAddForm {
+  width: 100%;
+}
+
+span.RoadmapAdderText {
+  font-size: 1.5rem;
+  font-weight: 550;
+  color: #455348;
+}
+
+form.ui.form.RoadmapAdderForm {
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+}
+div.ui.input {
+  margin-top: 1.2rem;
+}
+
+.ui.form textarea {
+  margin-top: 1.2rem !important;
+}
+
+#TreeSidebarAddFormButton {
+  margin-top: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+#FormInput {
+  height: 10rem;
+}
+a#TreeSidebarShowTexts {
+  color: #455358;
+}
+
+a#TreeSidebarShowTexts:hover {
+  color: #0000cd;
+}
+@media screen and (min-width: 843px) {
+  span.Instructions_text {
+    color: #455358;
+    font-family: hurme_no2-webfont, -apple-system, BlinkMacSystemFont,
+      sans-serif;
+    line-height: 1.625rem !important;
+    font-weight: 550;
+    font-size: 1.5rem;
+  }
+  button.ui.button.RoadmapAddButton {
+    background-color: #3ccfcf;
+    color: white;
+    margin-left: 10rem;
+  }
+}
+
+@media screen and (max-width: 842px) {
+  span.Instructions_text {
+    color: #455358;
+    font-family: hurme_no2-webfont, -apple-system, BlinkMacSystemFont,
+      sans-serif;
+    line-height: 1.625rem !important;
+    font-weight: 550;
+    font-size: 1.25rem;
+  }
+  button.ui.button.RoadmapAddButton {
+    background-color: #3ccfcf;
+    color: white;
+    margin-left: 5rem;
+  }
+}
+
+@media screen and (max-width: 718px) {
+  button.ui.button.RoadmapAddButton {
+    background-color: #3ccfcf;
+    color: white;
+    margin-top: 2rem;
+    margin-left: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 627px) {
+  button.ui.button.RoadmapAddButton {
+    background-color: #3ccfcf;
+    color: white;
+  }
+}
+
+div.RoadmapAdderHeader {
+  margin-top: 5rem;
+
+  margin-left: 10%;
+}
+
+div.ui.search.selection.dropdown {
+  margin-top: 1.25rem;
+}

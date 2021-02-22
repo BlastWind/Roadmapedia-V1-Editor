@@ -1,0 +1,56 @@
+.node {
+  cursor: pointer;
+}
+
+.node circle {
+  stroke-width: 0.3px;
+}
+
+.node circle.extra_info {
+}
+@keyframes glow {
+  to {
+    text-shadow: 0 0 10px red;
+  }
+}
+
+.node text {
+  font: 12px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: coral;
+  stroke-width: 2px;
+}
+.templink {
+  fill: none;
+  stroke: red;
+  stroke-width: 3px;
+}
+
+.ghostCircle.show {
+  display: block;
+}
+
+.ghostCircle,
+.activeDrag .ghostCircle {
+  display: none;
+}
+
+text.textToolTip {
+  line-height: 1;
+  padding: 6px;
+
+  fill: white !important;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+g.toolTipG {
+  background-color: white;
+}
+
+svg.social-icon.social-icon:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,17 @@
+p.InstructionsParagraph {
+  color: #455358;
+  font-family: hurme_no2-webfont, -apple-system, BlinkMacSystemFont, sans-serif;
+  line-height: 1.625rem !important;
+  font-weight: 550;
+  font-size: 1.1rem;
+}
+
+div.InstructionsDiv {
+  width: 85%;
+}
+
+div.InstructionsDiv2 {
+  width: 85%;
+  position: relative;
+  left: 10%;
+}
